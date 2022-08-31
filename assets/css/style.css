@@ -7,21 +7,16 @@ body {
     cursor: url('../img/cursor.png'), pointer;
 }
 
-/* LINKS IN WHITE  */
-a:hover {
-    text-decoration: none;
-    color: #fff;
-}
-
 /* HEADER */
 .logo {
-    height: 100px;
-    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /* navbar */
 .navbar-light {
-    background-color: #fff;
     border-bottom: 1px solid black;
 }
 
@@ -29,17 +24,18 @@ a:hover {
     font-family: kepler-std-semicondensed-dis, serif;
     font-weight: 700;
     font-style: italic;
+    font-size: xx-large!important;
 }
 
 /* titre du site  */
 .title {
-    font-size: large;                             
+    font-size: large;
     text-decoration: none;
     margin-top: 20px;
 }
 
 /* sous titre du site */
-.slogan { 
+.slogan {
     font-size: small;
     font-family: kepler-std-semicondensed-dis, serif;
     font-weight: 700;
@@ -56,6 +52,13 @@ a:hover {
     font-size: x-large;
 }
 
+/* Titres */
+h1 {
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: xxx-large!important;
+}
 
 /* form  */
 
@@ -73,7 +76,7 @@ body>div>div>form {
 }
 
 .login-card {
-    background-color: rgba(111,28,38, 0.3);
+    background-color: rgba(111, 28, 38, 0.3);
     padding: 30px;
     border-radius: 4px;
     margin-top: 50px;
@@ -96,19 +99,19 @@ body>div>div>form {
 }
 
 input:hover {
-    background-color: rgba(111,28,38, 0.8);
+    background-color: rgba(111, 28, 38, 0.8);
     color: white;
 }
 
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active{
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
     -webkit-box-shadow: 0 0 0 30px rgba(0, 0, 0, 1) inset !important;
     box-shadow: 0 0 0 30px rgba(0, 0, 0, 1) inset !important;
 }
 
-input:-webkit-autofill{
+input:-webkit-autofill {
     -webkit-text-fill-color: white !important;
 }
 
@@ -124,23 +127,23 @@ input::placeholder {
 }
 
 ::-webkit-file-upload-button {
-    background-color: rgba(0, 0, 0, 0.8)!important;
-    color: grey!important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: grey !important;
 }
 
 .btn-dark {
-    background-color: rgba(0, 0, 0, 0.8)!important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
 .btn-dark:hover {
-    background-color: rgba(111,28,38, 0.8)!important;
-    border-color: rgba(111,28,38, 0.8)!important;
-    color: white; 
+    background-color: rgba(111, 28, 38, 0.8) !important;
+    border-color: rgba(111, 28, 38, 0.8) !important;
+    color: white;
 }
 
 /* FOOTER */
 footer {
-    background-color: rgba(111,28,38, 0.3);
+    background-color: rgba(111, 28, 38, 0.3);
     border-radius: 4px;
     margin-top: 50px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -169,10 +172,12 @@ footer {
     .title {
         font-size: 70px
     }
+
     .slogan {
         font-size: xx-large;
         margin-top: -25px;
     }
+
     .iconDesktop {
         width: 2rem;
         position: relative;
@@ -186,10 +191,11 @@ footer {
     .navBarLg {
         display: none;
     }
+
     .fileUpload {
         font-size: x-small;
     }
-    
+
     body {
         font-size: small;
     }
@@ -199,25 +205,27 @@ footer {
         color: white;
     }
 
-    body > header > div:nth-child(1) > nav > div > button{
+    body>header>div:nth-child(1)>nav>div>button {
         font-size: 0.5rem;
     }
 
-    body > header > div:nth-child(1) > nav > div > button > span {
+    body>header>div:nth-child(1)>nav>div>button>span {
         font-size: 1rem;
     }
-    
+
     .loginTitle {
         font-size: large;
     }
-    
-    .title {
-        font-size: x-large;
+
+    .dropdown-item {
+        font-family: kepler-std-semicondensed-dis, serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: medium!important;
     }
-    
-    .slogan {
-        font-size: x-small;
+
+    .logo {
+        margin-left: 65px;
     }
 
 }
-

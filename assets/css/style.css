@@ -97,6 +97,12 @@ h3 {
     transform: scale(0.98);
 }
 
+.navTitle {
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-style: italic;
+    font-size: xx-large;
+}
+
 #bio {
     padding: 40px;
     text-align: center;
@@ -147,4 +153,29 @@ h3 {
 
 .social a {
     margin: 0 5px;
+}
+
+/* SOUND STUFF */
+#MuteButton::before {
+    content:  '🔈';
+}
+
+#MuteButton.muted::before {
+    content:  '🔇';
+}
+
+#MuteButton {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background: rgba(0,0,0,.5);
+  border: none;
+  color: #fff;
+  z-index: 5;
+  font-size: 2rem;
+  border-radius: 2rem;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
 }

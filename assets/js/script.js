@@ -11,3 +11,6 @@ function toggleMute() {
     
     button.classList.toggle('muted');
   }
+
+  /* validation formulaire */
+  

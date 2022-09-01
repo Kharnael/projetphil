@@ -95,6 +95,14 @@ h3 {
     font-family: kepler-std-semicondensed-dis, serif;
     font-style: italic;
     font-size: xx-large;
+    -moz-text-fill-color: #7A683E;
+    -webkit-text-fill-color: #7A683E;
+    -moz-text-stroke-color: black;
+    -webkit-text-stroke-color: black;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+    font-size: 50px;
+    margin-top: 20vh;
 }
 
 #bio {
@@ -151,27 +159,37 @@ h3 {
 
 /* SOUND STUFF */
 #MuteButton::before {
-    content:  '🔈';
+    content: '🔈';
 }
 
 #MuteButton.muted::before {
-    content:  '🔇';
+    content: '🔇';
 }
 
 #MuteButton {
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  background: rgba(0,0,0,.5);
-  border: none;
-  color: #fff;
-  z-index: 5;
-  font-size: 2rem;
-  border-radius: 2rem;
-  width: 4rem;
-  height: 4rem;
-  line-height: 4rem;
-  text-align: center;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background: rgba(0, 0, 0, .5);
+    border: none;
+    color: #fff;
+    z-index: 5;
+    font-size: 2rem;
+    border-radius: 2rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
 }
+
+/* mobile devices */
+
+@media screen and (max-width: 516px) {
+    .navTitle {
+        font-size: 30px;
+    }
+}
+
+
 
 /* links style + FORM */

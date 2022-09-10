@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,18 +9,37 @@
 :root {
     --white: #fff;
     --black: #000;
+    --logo-accent: #7A683E;
 }
 
 .text-black {
     color: var(--black);
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.5;
-    background-color: blanchedalmond;
+.text-accent {
+    -moz-text-fill-color: var(--black);
+    -webkit-text-fill-color: var(--black);
+    -moz-text-stroke-color: var(--black);
+    -webkit-text-stroke-color: var(--black);
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-style: italic;
 }
 
+.text-accent {
+    color: var(--logo-accent);
+}
+
+main {
+    backdrop-filter: blur(2px) contrast(70%);
+}
+
+body {
+    font-family: 'RocknRoll One', sans-serif;
+    line-height: 1.5;
+    background-image: url('/assets/img/wood.jpg');
+}
 h1 {
     font-weight: 300;
     font-size: 50px;
@@ -51,7 +72,6 @@ h3 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: var(--primary-color) url('./https://traversymedia.com/downloads/cover.jpg') no-repeat center center/cover;
 }
 
 .video-container video {
@@ -97,15 +117,25 @@ h3 {
     font-family: kepler-std-semicondensed-dis, serif;
     font-style: italic;
     font-size: xx-large;
-    -moz-text-fill-color: #7A683E;
-    -webkit-text-fill-color: #7A683E;
-    -moz-text-stroke-color: black;
-    -webkit-text-stroke-color: black;
+    -moz-text-fill-color: var(--logo-accent);
+    -webkit-text-fill-color: var(--logo-accent);
+    -moz-text-stroke-color: var(--logo-accent);
+    -webkit-text-stroke-color: var(--logo-accent);
     -moz-text-stroke-width: 2px;
     -webkit-text-stroke-width: 2px;
     font-size: 50px;
     margin-top: 20vh;
 }
+
+
+.carousel-item {
+    height: 600px;
+    overflow: hidden;
+    width: 100%;
+    }
+    .carousel-item img {
+    width: 100%;
+    }
 
 #bio {
     padding: 40px;

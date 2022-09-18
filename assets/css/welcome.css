@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'RocknRoll One', sans-serif;
+    line-height: 1.5;
+    background-image: url('/assets/img/vintage.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --logo-accent: #7A683E;
+}
+
+.text-accent {
+    -moz-text-fill-color: var(--white);
+    -webkit-text-fill-color: var(--white);
+    -moz-text-stroke-color: var(--white);
+    -webkit-text-stroke-color: var(--white);
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-style: italic;
+}
+
+.langWrap {
+    margin: auto;
+    backdrop-filter: blur(2px);
+}
+
+.country {
+    width: 100px!important;
+
+}
+
+.languageSelect {
+    font-size: 40px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+h1 span {
+    background: #231F20;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    backdrop-filter: blur(11px);
+}
+
+@media screen and (max-width: 516px) {
+    .country {
+        width: 60px!important;
+    
+    }
+
+    .logo {
+        margin-top: 200px!important;
+    }
+}

@@ -7,10 +7,13 @@
 body {
     font-family: 'RocknRoll One', sans-serif;
     line-height: 1.5;
-    background-image: url('/assets/img/vintage.jpg');
+    background-image: url('/assets/img/guitare2.jpg');
     background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.logo {
+    backdrop-filter: blur(3px);
 }
 
 :root {
@@ -61,11 +64,22 @@ h1 span {
 
 @media screen and (max-width: 516px) {
     .country {
-        width: 60px!important;
-    
+        width: 50px!important;
     }
 
     .logo {
         margin-top: 200px!important;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .languageSelect{
+        font-size: 31px;
+    }
+
+    body { 
+    background-image: url('/assets/img/guitare2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     }
 }

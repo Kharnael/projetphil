@@ -16,9 +16,6 @@
     color: var(--logo-accent);
 }
 
-.logo {
-    margin-right: 160px;
-}
 
 .text-accent {
     -moz-text-fill-color: var(--white);
@@ -41,10 +38,9 @@
 body {
     font-family: 'RocknRoll One', sans-serif;
     line-height: 1.5;
-    background-image: url('/assets/img/vintage.jpg');
+    background-image: url('/assets/img/guitare2.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 h1 {
@@ -182,27 +178,27 @@ footer  {
 
 /* SOUND STUFF */
 #MuteButton::before {
-    content: '🔈';
+    content:  '🔇';
 }
 
 #MuteButton.muted::before {
-    content: '🔇';
+    content:  '🔈';
 }
 
 #MuteButton {
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    background: rgba(0, 0, 0, .5);
-    border: none;
-    color: #fff;
-    z-index: 5;
-    font-size: 2rem;
-    border-radius: 2rem;
-    width: 4rem;
-    height: 4rem;
-    line-height: 4rem;
-    text-align: center;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background: rgba(0,0,0,.5);
+  border: none;
+  color: #fff;
+  z-index: 5;
+  font-size: 2rem;
+  border-radius: 2rem;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
 }
 
 
@@ -210,12 +206,7 @@ footer  {
 
 @media screen and (max-width: 516px) {
     .navTitle {
-        font-size: 40px;
-    }
-
-    body {
-        background-size: auto;
-        background-position: center;
+        font-size: 30px;
     }
 
     h1 span {
@@ -235,12 +226,15 @@ footer  {
         height: 200px;
     }
 
-    .country {
-        width: 50px!important;
-    }
-
     .logo {
         margin-bottom: 25px;
+    }
+
+    body {
+        background-image: url('/assets/img/guitare2.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
     }
 }
 

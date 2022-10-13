@@ -178,11 +178,11 @@ footer  {
 
 /* SOUND STUFF */
 #MuteButton::before {
-    content:  '🔇';
+    content:  '🔈';
 }
 
 #MuteButton.muted::before {
-    content:  '🔈';
+    content:  '🔇';
 }
 
 #MuteButton {

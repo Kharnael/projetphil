@@ -38,7 +38,7 @@
 body {
     font-family: 'RocknRoll One', sans-serif;
     line-height: 1.5;
-    background-image: url('/assets/img/guitare2.jpg');
+    background-image: url('/assets/img/background.png');
     background-attachment: fixed;
     background-size: cover;
 }

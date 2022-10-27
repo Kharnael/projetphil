@@ -23,7 +23,6 @@
     -moz-text-stroke-color: var(--white);
     -webkit-text-stroke-color: var(--white);
     -moz-text-stroke-width: 2px;
-    -webkit-text-stroke-width: 2px;
     font-family: kepler-std-semicondensed-dis, serif;
     font-style: italic;
 }
@@ -235,6 +234,10 @@ footer  {
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
+    }
+
+    .nav1, .nav2, .nav3, .nav4 {
+        font-size: xx-large;
     }
 }
 

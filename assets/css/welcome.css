@@ -58,7 +58,8 @@ h1 span {
 
 @media screen and (max-width: 516px) {
     .country {
-        width: 50px!important;
+        width: 35px!important;
+        margin-top: 10px;
     }
 
     .logo {

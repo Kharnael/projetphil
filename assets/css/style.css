@@ -230,7 +230,7 @@ footer  {
     }
 
     body {
-        background-image: url('/assets/img/guitare2.jpg');
+        background-image: url('/assets/img/background.png');
         background-attachment: fixed;
         background-position: center;
         background-size: cover;

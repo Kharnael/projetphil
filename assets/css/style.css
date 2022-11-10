@@ -200,6 +200,9 @@ footer  {
   text-align: center;
 }
 
+#events > div:nth-child(2) > div > div.notice-area {
+    display: none!important;
+}
 
 /* mobile devices */
 
@@ -239,6 +242,11 @@ footer  {
     .nav1, .nav2, .nav3, .nav4 {
         font-size: xx-large;
     }
+}
+
+
+.bit-venue {
+    display: none!important;
 }
 
 

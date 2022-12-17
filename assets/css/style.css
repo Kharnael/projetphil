@@ -224,9 +224,13 @@ footer  {
         display: none;
     }
 
-    .carousel-item {
-        height: 200px;
+    #carousel .carousel-item img {
+        object-fit: fill;
+        object-position: center;
+        height: 100vh;
+        overflow: hidden;
     }
+
 
     .logo {
         margin-bottom: 25px;

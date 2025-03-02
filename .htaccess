@@ -1,2 +1,9 @@
 RewriteEngine On
-RewriteRule ^(.*)\.html$ - [F,L]
+
+# Hide .html extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^([^/]+)$ $1.html [L]
+
+# Redirect requests to index.html if no file is specified
+RewriteRule ^$ index.html [L]
